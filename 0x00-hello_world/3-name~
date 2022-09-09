@@ -1,0 +1,1 @@
+#/bin/bash\ngcc -o cisfun $CFILE
