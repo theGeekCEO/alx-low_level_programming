@@ -1,16 +1,14 @@
 #include <stdio.h>
 /**
- * main - print alphabet in lowercase
+ * main - lowercase alphabets
  *
- * Return: 0 zero
+ * Return: Always (Success)
  */
 int main(void)
 {
-char ch = 'a'; /*Declaring statement */
-for(ch = 'a'; ch  <= 'z'; ch++)
-{
-putchar(ch);
-}
+char c;
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
 putchar('\n');
-return(0);
+return (0);
 }
