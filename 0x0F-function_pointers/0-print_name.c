@@ -7,11 +7,8 @@
 *@f: point to a function that prints name
 *Return: Nothing (void)
 */
-
-
 void print_name(char *name, void (*f)(char *))
 {
-	if (name && f)
-		f(name);
+if (name && f)
+f(name);
 }
-
