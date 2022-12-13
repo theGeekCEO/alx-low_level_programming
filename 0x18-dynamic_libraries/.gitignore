@@ -1,0 +1,8 @@
+*main.c
+*.o
+100-tests.py
+add.c
+div.c
+mod.c
+mul.c
+sub.c
